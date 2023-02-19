@@ -4,6 +4,9 @@ const app = getApp()
 
 Page({
   data: {
-    time: (new Date()).toString()
+    time: (new Date()).toString(),
+    var2: undefined, // undefined的变量不会显示
+    var3: null,
+    var4: "var4",
   },
 })

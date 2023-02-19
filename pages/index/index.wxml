@@ -1,4 +1,8 @@
 <!--index.wxml-->
 <view class="container">
     <text>当前时间：{{time}}</text>
+    <view>{{var1}}</view>
+    <view>{{var2}}</view>
+    <view>{{var3}}</view>
+    <view>{{var4}}</view>
 </view>
