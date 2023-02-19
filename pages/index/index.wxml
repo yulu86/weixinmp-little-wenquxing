@@ -12,6 +12,6 @@
 
     <!-- 列表 -->
     <view wx:for="{{books}}">
-      {{index}}: {{item.name}}, {{item.price}}
+        {{index}}: {{item.name}}, {{item.price}}
     </view>
 </view>
